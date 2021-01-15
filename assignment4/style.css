@@ -69,6 +69,7 @@ body {
 
 .grid {
   display: flex;
+  font-family:'rubik mono one', sans-serif
 }
 
 .grid div {
@@ -80,16 +81,20 @@ body {
 
 .grid .one {
   background-color: #2a9d8f;
+  color: #185952;
 }
 
 .grid .two {
   background-color: #e9c46a;
+  color: #B59951;
 }
 
 .grid .three {
   background-color: #f4a261;
+  color: #B57948;
 }
 
 .grid .four {
   background-color: #e76f51;
+  color: #B5573F;
 }
