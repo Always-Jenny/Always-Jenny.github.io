@@ -57,7 +57,12 @@ body {
     text-shadow: 0 15px 40px #1FBFFF;
     /* text-shadow: 0 15px 40px rgba (0, 0, 0, 0.6);*/
   }
-  
+
+  51% {
+    text-shadow: 0 15px 40px #1fff8f;
+    /* changed 50% and added an 80% to add a spicey color difference*/
+  }
+
   100% {
     -webkit-transform: translate(33%, 0);
             transform: translate(33%, 0);
