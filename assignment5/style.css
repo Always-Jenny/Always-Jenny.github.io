@@ -8,20 +8,33 @@ font-family: 'Sintony'; */
 body {
     font-family: sintony;
 }
-
 h1, 
 h2, 
-h3 {
+h3,
+h4 {
     font-family: walter-turncoat;
 }
-h1{
+h1 {
     font-size: 60px;
     line-height: 68px;
     margin-bottom: 20px;
 }
-h2{
+h2 {
     font-size: 32px;
     line-height: 36px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 28px;
     margin-top: 16px;
     margin-bottom: 12px;
 }
@@ -37,7 +50,7 @@ main {
 }
 .story {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .story .left {
     flex: 2;
