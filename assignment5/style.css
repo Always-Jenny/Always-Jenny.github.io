@@ -8,9 +8,22 @@ font-family: 'Sintony'; */
 body {
     font-family: sintony;
 }
-header{
+
+h1, 
+h2, 
+h3 {
     font-family: walter-turncoat;
-    font-size: 70px;
+}
+h1{
+    font-size: 60px;
+    line-height: 68px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 16px;
+    margin-bottom: 12px;
 }
 
 body {
@@ -24,13 +37,13 @@ main {
 }
 .story {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .story .left {
     flex: 2;
-    margin: 20px;
+    /*margin: 25px; */
 }
 .story .right {
     flex: 3;
-    margin: 20px;
 }
+
