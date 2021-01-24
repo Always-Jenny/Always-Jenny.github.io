@@ -55,15 +55,17 @@ font-family: 'Sintony'; */
 
   .story {
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
   
-  .news .left {
-    flex: 1;
+  .story .left {
+    flex: 2;
+    /*margin: 25px; */
   }
-  .news .right {
-    flex: 3;
+  .story .right {
+    flex: 2;
   }
+
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -78,27 +80,3 @@ font-family: 'Sintony'; */
   .gallery div {
     flex: 25%;
   }
-  
-  h1,
-  h2,
-  h3 {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
-  h1 {
-    font-size: 60px;
-    line-height: 68px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    font-size: 32px;
-    line-height: 36px;
-    margin-top: 16px;
-    margin-bottom: 12px;
-  }
-  h3 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 16px;
-    margin-bottom: 12px;
-  }
-  
