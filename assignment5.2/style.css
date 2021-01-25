@@ -76,7 +76,19 @@ font-family: 'Sintony'; */
   img {
     width: 100%;
   }
-  
+
   .gallery div {
     flex: 25%;
   }
+
+  .gallery .one{
+    width: 300px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.gallery .two{
+  width: 300px;
+  height: 550px;
+  overflow: hidden;
+}
