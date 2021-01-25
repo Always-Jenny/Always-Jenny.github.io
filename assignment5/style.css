@@ -27,13 +27,12 @@ font-family: 'Sintony'; */
       font-size: 32px;
       line-height: 36px;
       margin-top: 16px;
-      margin-bottom: 12px;
   }
   h3 {
       font-size: 24px;
       line-height: 28px;
-      margin-top: 16px;
       margin-bottom: 12px;
+      font-weight: bold;
   }
   
   h4 {
@@ -61,9 +60,11 @@ font-family: 'Sintony'; */
   .story .left {
     flex: 2;
     /*margin: 25px; */
+    padding: 20px;
   }
   .story .right {
     flex: 2;
+    padding: 20px;
   }
 
   .gallery {
@@ -72,6 +73,7 @@ font-family: 'Sintony'; */
   }
   .gallery div {
     border: 1px solid rgba(255, 47, 255, 1);
+    padding: 1px;
   }
   img {
     width: 100%;
@@ -86,9 +88,41 @@ font-family: 'Sintony'; */
     height: 550px;
     overflow: hidden;
 }
-
-.gallery .two{
+  .gallery .two{
+    width: 300px;
+    height: 550px;
+    overflow: hidden;
+}
+.gallery .three{
   width: 300px;
   height: 550px;
   overflow: hidden;
 }
+
+.gallery .four{
+  width: 300px;
+  height: 550px;
+  overflow: hidden;
+}
+.gallery .five{
+  width: 300px;
+  height: 550px;
+  overflow: hidden;
+}
+.gallery .six{
+  width: 300px;
+  height: 550px;
+  overflow: hidden;
+}
+.gallery .seven{
+width: 300px;
+height: 550px;
+overflow: hidden;
+}
+
+.gallery .eight{
+width: 300px;
+height: 550px;
+overflow: hidden;
+}
+
