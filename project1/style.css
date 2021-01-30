@@ -10,6 +10,9 @@ body {
 font-family: 'Allura';
 font-family: 'Noto-Sans-KR'; */
 
-.h1, h3 {
-    
+h1 {
+    font-family: Allura; 
+ }
+h3 {
+   font-family: Allura; 
 }
