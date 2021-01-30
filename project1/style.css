@@ -12,7 +12,10 @@ font-family: 'Noto-Sans-KR'; */
 
 h1 {
     font-family: Allura; 
+    font-size: 80px;
  }
+
 h3 {
    font-family: Allura; 
+   font-size: 30px;
 }
