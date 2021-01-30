@@ -5,3 +5,11 @@ body {
     background-image: url(./images/all.png);
     background-size: no-repeat, repeat;
 }
+
+/* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-KR" rel="stylesheet">
+font-family: 'Allura';
+font-family: 'Noto-Sans-KR'; */
+
+.h1, h3 {
+    
+}
