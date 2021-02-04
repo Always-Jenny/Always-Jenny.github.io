@@ -3,7 +3,7 @@
 }
 body {
     background-image: url(./images/all.png);
-    background-size: no-repeat, repeat;
+    Background-repeat: no-repeat: repeat;
 }
 
 /* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-KR" rel="stylesheet">
@@ -23,6 +23,5 @@ h3 {
    font-size: 30px;
 }
 
-.bees {
-    
+.pot {
 }
