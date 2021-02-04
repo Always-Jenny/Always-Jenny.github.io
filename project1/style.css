@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(./images/all.png);
-    Background-repeat: no-repeat: repeat;
+    background-image: url(images/all.png);
+    background-repeat: no-repeat;
 }
 
 /* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-KR" rel="stylesheet">
@@ -24,4 +24,7 @@ h3 {
 }
 
 .pot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
