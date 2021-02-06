@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    /* inherit; */
+    box-sizing: border-box;;
 }
 body {
     background-image: url(images/all.png);
@@ -59,10 +60,40 @@ p {
 }
 
 .info {
-    margin: 100px;
+    /* margin: 100px;
     position: absolute;
     top: 500px;
     right:20px;
     text-align: left;
-    min-width: 500px
+    min-width: 500px; 
+    display:flex;
+    justify-content: center;
+    border-spacing: 0px; 
+    margin-top: 40px;
+    letter-spacing: .015rem;
+    line-height: 1.20;
+    font-size: 17px;
+    text-align: left!important;
+    position: absolute;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    80px 750px 60px 
+    padding: 80px 750px 60px; */
+    width: 100%;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed
+    
+}
+
+header {
+    width: 100%;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed 
 }
