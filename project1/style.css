@@ -24,7 +24,10 @@ h3 {
 }
 
 .pot {
-    position: absolute;
+/* position: absolute;
     bottom: 0;
-    right: 0;
+    right: 0; */
+    position: fixed;
+    bottom: -100px;
+    right: -10px;
 }
