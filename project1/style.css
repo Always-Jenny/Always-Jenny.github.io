@@ -48,10 +48,21 @@ p {
 
 .topbees{
     position: absolute;
-    top:0;
+    top:100px;
 }
 
 .bees{
-    padding:4px;
-    columns: 2px 2;
+    padding: 20px;
+    columns: 70px 3;
+    position: absolute;
+    bottom:5px;
+}
+
+.info {
+    margin: 100px;
+    position: absolute;
+    top: 500px;
+    right:20px;
+    text-align: left;
+    min-width: 500px
 }
