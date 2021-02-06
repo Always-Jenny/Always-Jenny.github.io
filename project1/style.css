@@ -6,23 +6,26 @@ body {
     background-repeat: no-repeat;
 }
 
-/* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-KR" rel="stylesheet">
+/* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-Bengali" rel="stylesheet">
 font-family: 'Allura';
-font-family: 'Noto-Sans-KR'; */
+font-family: 'Noto-Sans-KR';
+noto-sans-bengali */
 
 h1 {
-    font-family: Allura; 
+    font-family: allura; 
     font-size: 80px;
  }
 h2 {
-    font-family: noto-sans-kr; 
+    font-family: noto-sans-bengali, sans-serif;
     font-size: 80px;
  }
-h3 {
-   font-family: Allura; 
+h3, header {
+   font-family: allura; 
    font-size: 30px;
 }
-
+p {
+    font-family: noto-sans-bengali, sans-serif;
+}
 .pot {
 /* position: absolute;
     bottom: 0;
@@ -33,9 +36,6 @@ h3 {
 }
 
 .homepot {
-    /* position: absolute;
-        bottom: 0;
-        right: 0; */
         position: absolute;
         bottom: 0;
         right: 0;
