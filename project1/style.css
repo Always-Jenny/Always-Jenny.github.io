@@ -30,6 +30,7 @@ h3, header {
 p {
     font-family: noto-sans-bengali, sans-serif;
 }
+
 .pot {
 /* position: absolute;
     bottom: 0;
@@ -51,6 +52,6 @@ p {
 }
 
 .bees{
-    margin: 30px;
-    columns: 100px 4;
+    padding:4px;
+    columns: 2px 2;
 }
