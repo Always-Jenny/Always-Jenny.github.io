@@ -40,7 +40,17 @@ p {
 }
 
 .homepot {
-        position: absolute;
-        bottom: 0;
-        right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.topbees{
+    position: absolute;
+    top:0;
+}
+
+.bees{
+    margin: 30px;
+    columns: 100px 4;
 }
