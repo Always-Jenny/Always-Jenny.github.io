@@ -5,6 +5,10 @@ body {
     background-image: url(images/all.png);
     background-repeat: no-repeat;
 }
+body.about {
+    background-image: url(images/sidepages.png);
+    background-repeat: no-repeat;
+}
 
 /* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-Bengali" rel="stylesheet">
 font-family: 'Allura';
@@ -39,4 +43,4 @@ p {
         position: absolute;
         bottom: 0;
         right: 0;
-    }
+}
