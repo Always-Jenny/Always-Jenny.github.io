@@ -1,5 +1,5 @@
 *
-/* <img class="img1" src="images/fram500.png" width="700px">
+/* example photo with frame: <img class="img1" src="images/fram500.png" width="700px">
         <img class="img2" src="images/whbphoto.jpg" alt="western honey bee on a flower" width="600px"> */
 {
     /* inherit; */
@@ -32,7 +32,6 @@ h3 {
    font-family: allura; 
    font-size: 30px;
 }
-
 p {
     font-family: noto-sans-bengali, sans-serif;
     font-size: 1rem;
@@ -65,6 +64,58 @@ p {
     margin: -20px 90px 90px 90px;
 }
 
+.honeycomb {
+    float: left;
+    margin-left: 30px 50px;
+    width: 150px;
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;  
+    margin: -430px 30px 30px 90px; 
+}
+
+.honeycomb {
+    float: left;
+    margin-left: 30px 50px;
+    width: 150px;
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;  
+    margin: -430px 30px 30px 90px; 
+}
+.honeycomb-2 {
+    float: left;
+    margin-left: 30px 50px;
+    width: 150px;
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;  
+    margin: -430px 30px 30px 560px; 
+}
+.honeycomb-3 {
+    float: left;
+    margin-left: 30px 50px;
+    width: 150px;
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;  
+    margin: -430px 30px 30px 1070px; 
+}
+.honeycomb-4 {
+    float: left;
+    margin-left: 30px 50px;
+    width: 150px;
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;  
+    margin: -430px 30px 30px 1520px; 
+}
+
 .bees{
     padding: 20px;
     columns: 70px 3;
@@ -72,23 +123,6 @@ p {
     bottom:5px;
     left: 25px;
 }
-
-/* .frame {
-    padding: 20px;
-    columns: 70px 3;
-    position: absolute;
-    bottom:5px; 
-    margin: 20px;
-    position: relative;
-    top: 100px;
-    left: 30px;
-    margin: 40px;
-    display: inline-block;
-    vertical-align: top;
-    align-self: flex-start;
-    float: left;
-    width: 46% 
-} */
 
 .frame {
     position: absolute;
@@ -100,7 +134,7 @@ p {
     vertical-align: top;
     align-self: flex-start;
     float: left;
-    width: 46% 
+    width: 46%; 
 }
 
 .img1 {
@@ -124,38 +158,6 @@ p {
     background-size: contain;
 }
 
-    /* info
-    margin: 100px;
-    position: absolute;
-    top: 500px;
-    right:20px;
-    text-align: left;
-    min-width: 500px; 
-    display:flex;
-    justify-content: center;
-    border-spacing: 0px; 
-    margin-top: 40px;
-    letter-spacing: .015rem;
-    line-height: 1.20;
-    font-size: 17px;
-    text-align: left!important;
-    position: absolute;
-    margin-top: 16px!important;
-    margin-bottom: 16px!important;
-    80px 750px 60px 
-    padding: 80px 750px 60px;
-    width: 100%;  
-    good stuffs
-    letter-spacing: .015rem;
-    line-height: 1.20;
-    width: 100%;
-    padding-right: 300px;
-    padding-left: 300px;
-    margin: 35px;
-    margin-right: auto;
-    margin-left: auto;
-    position: fixed;
-*/
 .info{
     letter-spacing: .015rem;
     line-height: 1.20;
