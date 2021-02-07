@@ -68,18 +68,46 @@ p {
     bottom:5px;
 }
 
-.frame {
-    /* padding: 20px;
+/* .frame {
+    padding: 20px;
     columns: 70px 3;
     position: absolute;
     bottom:5px; 
-    margin: 20px;*/
+    margin: 20px;
+    position: relative;
+    top: 100px;
+    left: 30px;
     margin: 40px;
     display: inline-block;
     vertical-align: top;
     align-self: flex-start;
     float: left;
-    width: 46%
+    width: 46% 
+} */
+
+.frame {
+    position: absolute;
+    bottom:5px; 
+    position: relative;
+    top: -70px;
+    left: 70px;
+    display: inline-block;
+    vertical-align: top;
+    align-self: flex-start;
+    float: left;
+    width: 46% 
+}
+.img1 {
+    position: relative;
+    top: -80px;
+    left: 70px;
+    z-index: 1;
+}
+
+.img2 {
+    position: relative;
+    top: -700px;
+    left: 110px;
 }
 
 .info {
