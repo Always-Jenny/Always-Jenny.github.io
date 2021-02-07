@@ -1,4 +1,7 @@
-*{
+*
+/* <img class="img1" src="images/fram500.png" width="700px">
+        <img class="img2" src="images/whbphoto.jpg" alt="western honey bee on a flower" width="600px"> */
+{
     /* inherit; */
     box-sizing: border-box;;
 }
@@ -97,17 +100,26 @@ p {
     float: left;
     width: 46% 
 }
+
 .img1 {
-    position: relative;
+    position: absolute;
     top: -80px;
     left: 70px;
     z-index: 1;
+    background-size: contain;
 }
 
 .img2 {
-    position: relative;
-    top: -700px;
+    /* position: realative;
+    top: -800px;
     left: 110px;
+    background-size: contain;
+    width:100%;
+    */
+    position: relative;
+    top: 2px;
+    left: 110px;
+    background-size: contain;
 }
 
 .info {
