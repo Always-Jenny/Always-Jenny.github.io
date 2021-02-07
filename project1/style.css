@@ -17,12 +17,13 @@ font-family: 'Noto-Sans-KR';
 noto-sans-bengali */
 
 h1 {
+    /* 80px */
     font-family: allura; 
-    font-size: 80px;
+    font-size: 150px;
  }
 h2 {
     font-family: noto-sans-bengali, sans-serif;
-    font-size: 80px;
+    font-size: 90px;
  }
 h3, header {
    font-family: allura; 
@@ -30,6 +31,7 @@ h3, header {
 }
 p {
     font-family: noto-sans-bengali, sans-serif;
+    font-size: 1rem;
 }
 
 .pot {
@@ -48,8 +50,15 @@ p {
 }
 
 .topbees{
-    position: absolute;
-    top:100px;
+    /* display: inline; */
+    background-attachment:fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.topbees div{
+    /* 90px 90px 90px; */
+    margin: -20px 90px 90px 90px;
 }
 
 .bees{
@@ -57,6 +66,20 @@ p {
     columns: 70px 3;
     position: absolute;
     bottom:5px;
+}
+
+.frame {
+    /* padding: 20px;
+    columns: 70px 3;
+    position: absolute;
+    bottom:5px; 
+    margin: 20px;*/
+    margin: 40px;
+    display: inline-block;
+    vertical-align: top;
+    align-self: flex-start;
+    float: left;
+    width: 46%
 }
 
 .info {
@@ -79,6 +102,8 @@ p {
     margin-bottom: 16px!important;
     80px 750px 60px 
     padding: 80px 750px 60px; */
+    letter-spacing: .015rem;
+    line-height: 1.20;
     width: 100%;
     padding-right: 300px;
     padding-left: 300px;
@@ -86,7 +111,15 @@ p {
     margin-right: auto;
     margin-left: auto;
     position: fixed
-    
+}
+
+.type {
+    letter-spacing: .015rem;
+    line-height: 1.20;
+    display: inline-block;
+    width: 46%;
+    max-width: 2000px;
+    object-fit: contain;
 }
 
 header {
@@ -95,5 +128,19 @@ header {
     padding-left: 300px;
     margin-right: auto;
     margin-left: auto;
-    position: fixed 
+    position: fixed;
+}
+
+.h1, h2 {
+    margin: 40px;
+}
+
+h1 {
+    text-align: left;
+    display: inline;
+}
+
+h2 {
+    display:inline-block;
+    text-align: center;
 }
