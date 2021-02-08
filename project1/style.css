@@ -171,6 +171,57 @@ p {
     display: inline;
 }
 
+.flipcomb-3{ 
+    top: 130%;
+    bottom: 90%;
+    width: 130px;
+    max-width: 480px;
+    width:100%;
+    height: auto;
+    transform:translate( -130%, 90%);
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.flipcomb-3 .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.flipcomb-3:hover .img-top{
+    display: inline;
+}
+
+.flipcomb-4{ 
+    top: 160%;
+    bottom: 100%;
+    width: 130px;
+    max-width: 480px;
+    width:100%;
+    height: auto;
+    transform:translate( -160%, 100%);
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.flipcomb-4 .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.flipcomb-4:hover .img-top{
+    display: inline;
+}
+
+
+
+
+
+
 .frame {
     position: absolute;
     bottom:5px; 
