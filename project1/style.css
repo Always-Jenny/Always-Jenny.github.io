@@ -16,6 +16,8 @@ body {
 body.about {
     background-image: url(images/sidepages.png);
     background-repeat: no-repeat;
+    width:100%;
+    overflow-x: hidden;
 }
 
 /* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-Bengali" rel="stylesheet">
@@ -84,7 +86,7 @@ p {
 .honeycomb {
     float: left;
     margin-left: 30px 50px;
-    width: 150px;
+    width: 130px;
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -223,11 +225,6 @@ p {
     display: inline;
 }
 
-
-
-
-
-
 .frame {
     position: absolute;
     bottom:5px; 
@@ -279,7 +276,7 @@ p {
     max-width: 2000px;
     object-fit: contain;
 }
-
+/*
 header {
     width: 100%;
     padding-right: 300px;
@@ -287,18 +284,24 @@ header {
     margin-right: auto;
     margin-left: auto;
     position: fixed;
+} */
+
+.h1 {
+    margin: 100px;
 }
 
-.h1, h2 {
-    margin: 40px;
+.h2 {
+    margin: 20px;
 }
 
 h1 {
     text-align: left;
     display: inline;
-}
+    margin: 70px;
 
+}
 h2 {
     display:inline-block;
     text-align: center;
+    margin: -60px;
 }
