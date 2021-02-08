@@ -1,9 +1,13 @@
 *
 /* example photo with frame: <img class="img1" src="images/fram500.png" width="700px">
-        <img class="img2" src="images/whbphoto.jpg" alt="western honey bee on a flower" width="600px"> */
-{
+        <img class="img2" src="images/whbphoto.jpg" alt="western honey bee on a flower" width="600px">
+        
+        <a href="page2.html">
+        <img src="images/am.png" alt="western honey bee drawing in water color" > */
+
+        {
     /* inherit; */
-    box-sizing: border-box;;
+    box-sizing: border-box;
 }
 body {
     background-image: url(images/all.png);
@@ -62,6 +66,19 @@ p {
 .topbees div{
     /* 90px 90px 90px; */
     margin: -20px 90px 90px 90px;
+    width:100%;
+}
+
+/* .honeycomb-home */
+.flipcomb {
+    float: left;
+    margin-left: 30px 50px;
+    width: 150px;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    display: flex;  
+    margin: 140px 30px 30px 50px; 
+    width:100%; 
 }
 
 .honeycomb {
@@ -73,17 +90,7 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 90px; 
-}
-
-.honeycomb {
-    float: left;
-    margin-left: 30px 50px;
-    width: 150px;
-    background-attachment:fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: flex;  
-    margin: -430px 30px 30px 90px; 
+    width:100%; 
 }
 .honeycomb-2 {
     float: left;
@@ -93,7 +100,8 @@ p {
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
-    margin: -430px 30px 30px 560px; 
+    margin: -430px 30px 30px 560px;
+    width:100%;  
 }
 .honeycomb-3 {
     float: left;
@@ -104,6 +112,7 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1070px; 
+    width:100%; 
 }
 .honeycomb-4 {
     float: left;
@@ -114,14 +123,52 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1520px; 
+    width:100%; 
 }
 
-.bees{
+/* .bees{
     padding: 20px;
     columns: 70px 3;
     position: absolute;
     bottom:5px;
     left: 25px;
+} */
+
+.flipcomb{ 
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.flipcomb .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.flipcomb:hover .img-top{
+    display: inline;
+}
+
+.flipcomb-2{ 
+    width: 180px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 130px;
+}
+
+.flipcomb-2 .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.flipcomb-2:hover .img-top{
+    display: inline;
 }
 
 .frame {
