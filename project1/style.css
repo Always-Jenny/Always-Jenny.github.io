@@ -153,11 +153,17 @@ p {
 }
 
 .flipcomb-2{ 
-    width: 180px;
-    height: 100px;
+    top: -20%;
+    bottom: -40%;
+    width: 130px;
+    /* max-width: 480px; */
+    max-width: 325px;
+    width:100%;
+    height: auto;
+    transform:translate( 20%, 40%);
     position: relative;
     display: inline-block;
-    margin: 130px;
+    margin: 50px;
 }
 
 .flipcomb-2 .img-top {
@@ -173,12 +179,12 @@ p {
 
 .flipcomb-3{ 
     top: 130%;
-    bottom: 90%;
+    bottom: 110%;
     width: 130px;
     max-width: 480px;
     width:100%;
     height: auto;
-    transform:translate( -130%, 90%);
+    transform:translate( -130%, 110%);
     position: relative;
     display: inline-block;
     margin: 50px;
@@ -195,13 +201,13 @@ p {
 }
 
 .flipcomb-4{ 
-    top: 160%;
-    bottom: 100%;
-    width: 130px;
-    max-width: 480px;
-    width:100%;
+    top: 370%;
+    bottom: 150%;
+    width: 170px;
+    max-width: 230px;
+    width: 100%;
     height: auto;
-    transform:translate( -160%, 100%);
+    transform: translate( -370%, 150%);
     position: relative;
     display: inline-block;
     margin: 50px;
