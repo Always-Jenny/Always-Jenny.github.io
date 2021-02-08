@@ -139,9 +139,11 @@ p {
 .flipcomb{ 
     width: 130px;
     height: 195px;
-    position: relative;
+    position: absolute;
     display: inline-block;
     margin: 50px;
+    top:18%;
+    left:2%;
 }
 .flipcomb .img-top {
     display: none;
@@ -155,17 +157,26 @@ p {
 }
 
 .flipcomb-2{ 
-    top: -20%;
+    /*
+    top: -40%;
     bottom: -40%;
     width: 130px;
-    /* max-width: 480px; */
+    max-width: 480px;
     max-width: 325px;
     width:100%;
     height: auto;
     transform:translate( 20%, 40%);
     position: relative;
     display: inline-block;
+    margin: 50px; */
+    width: 130px;
+    height: 195px;
+    position: absolute;
+    display: inline-block;
     margin: 50px;
+    top:28%;
+    left:18%;
+    bottom:4%;
 }
 
 .flipcomb-2 .img-top {
@@ -180,6 +191,7 @@ p {
 }
 
 .flipcomb-3{ 
+    /*
     top: 130%;
     bottom: 110%;
     width: 130px;
@@ -189,7 +201,15 @@ p {
     transform:translate( -130%, 110%);
     position: relative;
     display: inline-block;
+    margin: 50px; */
+    width: 130px;
+    height: 195px;
+    position: absolute;
+    display: inline-block;
     margin: 50px;
+    top:50%;
+    left:4%;
+    bottom:4%;
 }
 .flipcomb-3 .img-top {
     display: none;
@@ -203,6 +223,7 @@ p {
 }
 
 .flipcomb-4{ 
+    /*
     top: 370%;
     bottom: 150%;
     width: 170px;
@@ -212,7 +233,15 @@ p {
     transform: translate( -370%, 150%);
     position: relative;
     display: inline-block;
-    margin: 50px;
+    margin: 50px; */
+    width: 130px;
+    height: 195px;
+    position: absolute;
+    display: inline-block;
+    margin: 40px;
+    top:62%;
+    left:21%;
+    bottom:4%;
 }
 .flipcomb-4 .img-top {
     display: none;
@@ -226,6 +255,7 @@ p {
 }
 
 .frame {
+    /*
     position: absolute;
     bottom:5px; 
     position: relative;
@@ -235,7 +265,15 @@ p {
     vertical-align: top;
     align-self: flex-start;
     float: left;
-    width: 46%; 
+    width: 46%; */
+    width: 130px;
+    height: 195px;
+    position: absolute;
+    display: inline-block;
+    margin: 40px;
+    top:16%;
+    left:3%;
+    bottom:4%;
 }
 
 .img1 {
@@ -286,22 +324,31 @@ header {
     position: fixed;
 } */
 
+/*
 .h1 {
     margin: 100px;
 }
 
 .h2 {
     margin: 20px;
-}
+} */
 
 h1 {
+    position:absolute;
     text-align: left;
     display: inline;
-    margin: 70px;
+    margin: 80px 50px;
+    top: -50px;
 
 }
 h2 {
+    /* position: absolute;
     display:inline-block;
     text-align: center;
-    margin: -60px;
+    margin: -50px; */
+    position:absolute;
+    text-align: center;
+    display: inline;
+    margin: 60px 370px;
+
 }
