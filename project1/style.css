@@ -36,11 +36,11 @@ h2 {
  }
 h3 {
    font-family: allura; 
-   font-size: 30px;
+   font-size: 80px;
 }
 p {
     font-family: noto-sans-bengali, sans-serif;
-    font-size: 1rem;
+    font-size: 24px;
 }
 
 .pot {
@@ -306,32 +306,37 @@ p {
     bottom: 20px;
 }
 
-.type {
+.maintype {
+    /* good type
     letter-spacing: .015rem;
     line-height: 1.20;
     display: inline-block;
     width: 46%;
     max-width: 2000px;
-    object-fit: contain;
-}
-/*
-header {
+    object-fit: contain; */
+    position: absolute;
+    text-align: left;
+    top: 450px;
+    left: 840px;
+    letter-spacing: .015rem;
+    line-height: 1.20;
+    display: inline-block;
     width: 100%;
-    padding-right: 300px;
-    padding-left: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    position: fixed;
-} */
-
-/*
-.h1 {
-    margin: 100px;
+    object-fit: contain;
+    width: 530px;
 }
-
-.h2 {
-    margin: 20px;
-} */
+.type {
+    position: absolute;
+    text-align: left;
+    top:300px;
+    left: 1000px;
+    letter-spacing: .015rem;
+    line-height: 1.20;
+    display: inline-block;
+    width: 100%;
+    object-fit: contain;
+    width: 700px;
+}
 
 h1 {
     position:absolute;
