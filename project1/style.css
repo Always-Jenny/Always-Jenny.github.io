@@ -5,19 +5,17 @@
         <a href="page2.html">
         <img src="images/am.png" alt="western honey bee drawing in water color" > */
 
-/* Media Queries: Tablet Landscape */
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
-
    /* this was good
     {
     /* inherit;
     box-sizing: border-box;
 } */
+
+/* Media Queries: Tabled Portrait */
+@media (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
 
 body {
     background-image: url(images/all.png);
