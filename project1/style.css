@@ -4,11 +4,12 @@
         
         <a href="page2.html">
         <img src="images/am.png" alt="western honey bee drawing in water color" > */
-
-        {
+   
+    {
     /* inherit; */
     box-sizing: border-box;
 }
+
 body {
     background-image: url(images/all.png);
     background-repeat: no-repeat;
@@ -355,5 +356,4 @@ h2 {
     text-align: center;
     display: inline;
     margin: 60px 370px;
-
 }
