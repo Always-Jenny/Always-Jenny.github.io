@@ -63,6 +63,8 @@ p {
     position: fixed;
     bottom: -100px;
     right: -10px;
+    max-width:100%; 
+    height:auto;
 }
 
 .homepot {
@@ -70,6 +72,7 @@ p {
     bottom: 0;
     right: 0;
     max-width: 100%;
+    max-width:100%; 
     height:auto;
 }
 
@@ -79,11 +82,14 @@ p {
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
+    max-width:100%; 
+    height:auto;
 }
 .topbees div{
     /* 90px 90px 90px; */
     margin: -20px 90px 90px 90px;
-    width:100%;
+    max-width:100%; 
+    height:auto;
 }
 
 /* .honeycomb-home */
@@ -95,7 +101,8 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: 140px 30px 30px 50px; 
-    width:100%; 
+    max-width:100%; 
+    height:auto;
 }
 
 .honeycomb {
@@ -107,7 +114,8 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 90px; 
-    width:100%; 
+    max-width:100%; 
+    height:auto;
 }
 .honeycomb-2 {
     float: left;
@@ -118,7 +126,8 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 560px;
-    width:100%;  
+    max-width:100%; 
+    height:auto;
 }
 .honeycomb-3 {
     float: left;
@@ -129,7 +138,8 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1070px; 
-    width:100%; 
+    max-width:100%; 
+    height:auto; 
 }
 .honeycomb-4 {
     float: left;
@@ -140,7 +150,8 @@ p {
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1520px; 
-    width:100%; 
+    max-width:100%; 
+    height:auto;
 }
 
 /* .bees{
@@ -349,6 +360,8 @@ p {
     width: 100%;
     object-fit: contain;
     width: 530px;
+    max-width:100%; 
+    height:auto;
 }
 .type {
     position: absolute;
@@ -361,6 +374,8 @@ p {
     width: 100%;
     object-fit: contain;
     width: 700px;
+    max-width:100%; 
+    height:auto;
 }
 
 h1 {
@@ -369,7 +384,8 @@ h1 {
     display: inline;
     margin: 80px 50px;
     top: -50px;
-
+    max-width:100%; 
+    height:auto;
 }
 h2 {
     /* position: absolute;
@@ -380,4 +396,6 @@ h2 {
     text-align: center;
     display: inline;
     margin: 60px 370px;
+    max-width:100%; 
+    height:auto;
 }
