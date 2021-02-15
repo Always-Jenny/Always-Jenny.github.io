@@ -11,21 +11,17 @@
     box-sizing: border-box;
 } */
 
-/* Media Queries: Tabled Portrait */
-@media (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
-
 body {
     background-image: url(images/all.png);
     background-repeat: no-repeat;
+    width: auto; 
     max-width: 100%;
     height:auto;
 }
 body.about {
     background-image: url(images/sidepages.png);
     background-repeat: no-repeat;
+    width: auto; 
     max-width:100%;
     overflow-x: hidden;
     height:auto;
@@ -61,6 +57,7 @@ p {
     position: fixed;
     bottom: -100px;
     right: -10px;
+    width: auto;
     max-width:100%; 
     height:auto;
 }
@@ -69,7 +66,7 @@ p {
     position: absolute;
     bottom: 0;
     right: 0;
-    max-width: 100%;
+    width: auto;
     max-width:100%; 
     height:auto;
 }
@@ -80,25 +77,25 @@ p {
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
+    width: auto;
     max-width:100%; 
     height:auto;
 }
 .topbees div{
     /* 90px 90px 90px; */
     margin: -20px 90px 90px 90px;
-    max-width:100%; 
-    height:auto;
 }
 
 /* .honeycomb-home */
 .flipcomb {
     float: left;
     margin-left: 30px 50px;
-    width: 150px;
+    /*width: 150px; */
     background-attachment:fixed;
     background-repeat: no-repeat;
     display: flex;  
     margin: 140px 30px 30px 50px; 
+    width: auto;
     max-width:100%; 
     height:auto;
 }
@@ -106,48 +103,52 @@ p {
 .honeycomb {
     float: left;
     margin-left: 30px 50px;
-    width: 130px;
+    /*width: 130px; */
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
-    margin: -430px 30px 30px 90px; 
+    margin: -430px 30px 30px 90px;
+    width: auto; 
     max-width:100%; 
     height:auto;
 }
 .honeycomb-2 {
     float: left;
     margin-left: 30px 50px;
-    width: 150px;
+    /*width: 150px; */
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 560px;
+    width: auto; 
     max-width:100%; 
     height:auto;
 }
 .honeycomb-3 {
     float: left;
     margin-left: 30px 50px;
-    width: 150px;
+    /* width: 150px; */
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1070px; 
+    width: auto; 
     max-width:100%; 
     height:auto; 
 }
 .honeycomb-4 {
     float: left;
     margin-left: 30px 50px;
-    width: 150px;
+    /* width: 150px; */
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1520px; 
+    width: auto; 
     max-width:100%; 
     height:auto;
 }
@@ -161,13 +162,14 @@ p {
 } */
 
 .flipcomb{ 
-    width: 130px;
-    height: 195px;
+    /* width: 130px;
+    height: 195px; */
     position: absolute;
     display: inline-block;
     margin: 50px;
     top:18%;
     left:2%;
+    width: auto; 
     max-width: 100%;
     height:auto;
 }
@@ -194,15 +196,16 @@ p {
     transform:translate( 20%, 40%);
     position: relative;
     display: inline-block;
-    margin: 50px; */
-    width: 130px;
-    height: 195px;
+    margin: 50px; 
+    (this is good code) width: 130px;
+    height: 195px; */
     position: absolute;
     display: inline-block;
     margin: 50px;
     top:28%;
     left:18%;
     bottom:4%;
+    width: auto; 
     max-width: 100%;
     height:auto;
 }
@@ -229,15 +232,16 @@ p {
     transform:translate( -130%, 110%);
     position: relative;
     display: inline-block;
-    margin: 50px; */
-    width: 130px;
-    height: 195px;
+    margin: 50px; 
+    (good code) width: 130px;
+    height: 195px; */
     position: absolute;
     display: inline-block;
     margin: 50px;
     top:50%;
     left:4%;
     bottom:4%;
+    width: auto; 
     max-width: 100%;
     height:auto;
 }
@@ -263,15 +267,16 @@ p {
     transform: translate( -370%, 150%);
     position: relative;
     display: inline-block;
-    margin: 50px; */
-    width: 130px;
-    height: 195px;
+    margin: 50px; 
+    (good code) width: 130px;
+    height: 195px; */
     position: absolute;
     display: inline-block;
     margin: 40px;
     top:62%;
     left:21%;
     bottom:4%;
+    width: auto; 
     max-width: 100%;
     height:auto;
 }
@@ -297,15 +302,16 @@ p {
     vertical-align: top;
     align-self: flex-start;
     float: left;
-    width: 46%; */
-    width: 130px;
-    height: 195px;
+    width: 46%; 
+    (good code) width: 130px;
+    height: 195px; */
     position: absolute;
     display: inline-block;
     margin: 40px;
     top:16%;
     left:3%;
     bottom:4%;
+    width: auto; 
     max-width: 100%;
     height:auto;
 }
@@ -382,6 +388,7 @@ h1 {
     display: inline;
     margin: 80px 50px;
     top: -50px;
+    width: auto; 
     max-width:100%; 
     height:auto;
 }
@@ -394,6 +401,7 @@ h2 {
     text-align: center;
     display: inline;
     margin: 60px 370px;
+    width: auto; 
     max-width:100%; 
     height:auto;
 }
