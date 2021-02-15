@@ -4,34 +4,27 @@
         
         <a href="page2.html">
         <img src="images/am.png" alt="western honey bee drawing in water color" > */
-
-   /* this was good
-    {
-    /* inherit;
+ 
+        {
+    /* inherit; */
     box-sizing: border-box;
-} */
-
+}
 body {
     background-image: url(images/all.png);
     background-repeat: no-repeat;
-    width: auto; 
-    max-width: 100%;
-    height:auto;
 }
 body.about {
     background-image: url(images/sidepages.png);
     background-repeat: no-repeat;
-    width: auto; 
-    max-width:100%;
+    width:100%;
     overflow-x: hidden;
-    height:auto;
 }
-
+ 
 /* <link href="https://fonts.googleapis.com/css?family=Allura|Noto-Sans-Bengali" rel="stylesheet">
 font-family: 'Allura';
 font-family: 'Noto-Sans-KR';
 noto-sans-bengali */
-
+ 
 h1 {
     /* 80px */
     font-family: allura; 
@@ -49,7 +42,7 @@ p {
     font-family: noto-sans-bengali, sans-serif;
     font-size: 24px;
 }
-
+ 
 .pot {
 /* position: absolute;
     bottom: 0;
@@ -57,102 +50,84 @@ p {
     position: fixed;
     bottom: -100px;
     right: -10px;
-    width: auto;
-    max-width:100%; 
-    height:auto;
 }
-
+ 
 .homepot {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: auto;
-    max-width:100%; 
-    height:auto;
 }
-
+ 
 .topbees{
     /* display: inline; */
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
-    width: auto;
-    max-width:100%; 
-    height:auto;
 }
 .topbees div{
     /* 90px 90px 90px; */
     margin: -20px 90px 90px 90px;
+    width:100%;
 }
-
+ 
 /* .honeycomb-home */
 .flipcomb {
     float: left;
     margin-left: 30px 50px;
-    /*width: 150px; */
+    width: 150px;
     background-attachment:fixed;
     background-repeat: no-repeat;
     display: flex;  
     margin: 140px 30px 30px 50px; 
-    width: auto;
-    max-width:100%; 
-    height:auto;
+    width:100%; 
 }
-
+ 
 .honeycomb {
     float: left;
     margin-left: 30px 50px;
-    /*width: 130px; */
+    width: 130px;
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
-    margin: -430px 30px 30px 90px;
-    width: auto; 
-    max-width:100%; 
-    height:auto;
+    margin: -430px 30px 30px 90px; 
+    width:100%; 
 }
 .honeycomb-2 {
     float: left;
     margin-left: 30px 50px;
-    /*width: 150px; */
+    width: 150px;
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 560px;
-    width: auto; 
-    max-width:100%; 
-    height:auto;
+    width:100%;  
 }
 .honeycomb-3 {
     float: left;
     margin-left: 30px 50px;
-    /* width: 150px; */
+    width: 150px;
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1070px; 
-    width: auto; 
-    max-width:100%; 
-    height:auto; 
+    width:100%; 
 }
 .honeycomb-4 {
     float: left;
     margin-left: 30px 50px;
-    /* width: 150px; */
+    width: 150px;
     background-attachment:fixed;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;  
     margin: -430px 30px 30px 1520px; 
-    width: auto; 
-    max-width:100%; 
-    height:auto;
+    width:100%; 
 }
-
+ 
 /* .bees{
     padding: 20px;
     columns: 70px 3;
@@ -160,18 +135,15 @@ p {
     bottom:5px;
     left: 25px;
 } */
-
+ 
 .flipcomb{ 
-    /* width: 130px;
-    height: 195px; */
+    width: 130px;
+    height: 195px;
     position: absolute;
     display: inline-block;
     margin: 50px;
     top:18%;
     left:2%;
-    width: auto; 
-    max-width: 100%;
-    height:auto;
 }
 .flipcomb .img-top {
     display: none;
@@ -183,7 +155,7 @@ p {
 .flipcomb:hover .img-top{
     display: inline;
 }
-
+ 
 .flipcomb-2{ 
     /*
     top: -40%;
@@ -196,20 +168,17 @@ p {
     transform:translate( 20%, 40%);
     position: relative;
     display: inline-block;
-    margin: 50px; 
-    (this is good code) width: 130px;
-    height: 195px; */
+    margin: 50px; */
+    width: 130px;
+    height: 195px;
     position: absolute;
     display: inline-block;
     margin: 50px;
     top:28%;
     left:18%;
     bottom:4%;
-    width: auto; 
-    max-width: 100%;
-    height:auto;
 }
-
+ 
 .flipcomb-2 .img-top {
     display: none;
     position: absolute;
@@ -220,7 +189,7 @@ p {
 .flipcomb-2:hover .img-top{
     display: inline;
 }
-
+ 
 .flipcomb-3{ 
     /*
     top: 130%;
@@ -232,18 +201,15 @@ p {
     transform:translate( -130%, 110%);
     position: relative;
     display: inline-block;
-    margin: 50px; 
-    (good code) width: 130px;
-    height: 195px; */
+    margin: 50px; */
+    width: 130px;
+    height: 195px;
     position: absolute;
     display: inline-block;
     margin: 50px;
     top:50%;
     left:4%;
     bottom:4%;
-    width: auto; 
-    max-width: 100%;
-    height:auto;
 }
 .flipcomb-3 .img-top {
     display: none;
@@ -255,7 +221,7 @@ p {
 .flipcomb-3:hover .img-top{
     display: inline;
 }
-
+ 
 .flipcomb-4{ 
     /*
     top: 370%;
@@ -267,18 +233,15 @@ p {
     transform: translate( -370%, 150%);
     position: relative;
     display: inline-block;
-    margin: 50px; 
-    (good code) width: 130px;
-    height: 195px; */
+    margin: 50px; */
+    width: 130px;
+    height: 195px;
     position: absolute;
     display: inline-block;
     margin: 40px;
     top:62%;
     left:21%;
     bottom:4%;
-    width: auto; 
-    max-width: 100%;
-    height:auto;
 }
 .flipcomb-4 .img-top {
     display: none;
@@ -290,7 +253,7 @@ p {
 .flipcomb-4:hover .img-top{
     display: inline;
 }
-
+ 
 .frame {
     /*
     position: absolute;
@@ -302,20 +265,17 @@ p {
     vertical-align: top;
     align-self: flex-start;
     float: left;
-    width: 46%; 
-    (good code) width: 130px;
-    height: 195px; */
+    width: 46%; */
+    width: 130px;
+    height: 195px;
     position: absolute;
     display: inline-block;
     margin: 40px;
     top:16%;
     left:3%;
     bottom:4%;
-    width: auto; 
-    max-width: 100%;
-    height:auto;
 }
-
+ 
 .img1 {
     position: absolute;
     top: -80px;
@@ -323,7 +283,7 @@ p {
     z-index: 1;
     background-size: contain;
 }
-
+ 
 .img2 {
     /* position: realative;
     top: -800px;
@@ -336,7 +296,7 @@ p {
     left: 110px;
     background-size: contain;
 }
-
+ 
 .info{
     letter-spacing: .015rem;
     line-height: 1.20;
@@ -345,7 +305,7 @@ p {
     margin: 200px 20px 20px 20px;
     bottom: 20px;
 }
-
+ 
 .maintype {
     /* good type
     letter-spacing: .015rem;
@@ -364,8 +324,6 @@ p {
     width: 100%;
     object-fit: contain;
     width: 530px;
-    max-width:100%; 
-    height:auto;
 }
 .type {
     position: absolute;
@@ -378,19 +336,15 @@ p {
     width: 100%;
     object-fit: contain;
     width: 700px;
-    max-width:100%; 
-    height:auto;
 }
-
+ 
 h1 {
     position:absolute;
     text-align: left;
     display: inline;
     margin: 80px 50px;
     top: -50px;
-    width: auto; 
-    max-width:100%; 
-    height:auto;
+ 
 }
 h2 {
     /* position: absolute;
@@ -401,7 +355,4 @@ h2 {
     text-align: center;
     display: inline;
     margin: 60px 370px;
-    width: auto; 
-    max-width:100%; 
-    height:auto;
 }
