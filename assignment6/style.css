@@ -1,35 +1,24 @@
 * {
   box-sizing: border-box;
 }
-/* font-family: 'Courgette';
-font-family: 'Jockey-One'; */
 
 body {
-  font-family: 'inter';
   font-size: 20px;
   margin: 0;
 }
 h1,
 h2,
 h3 {
-  font-weight: bold;
   margin: 0;
 }
 img {
   width: 100%;
 }
 h1 {
-  font-family: 'courgette';
   font-size: 32px;
   line-height: 40px;
-  margin-top: 15px;
 }
-.button { 
-  font-family: 'courgette'
-}
-
 h2 {
-  font-family: 'jockey-one';
   font-size: 20px;
   line-height: 26px;
   font-weight: bold;
@@ -44,30 +33,16 @@ header h2 {
 .feature div {
   flex: 1;
 }
-.feature, .news-thumbs{
- display: flex;
-}
 .no-widows {
   display: none;
 }
 .feature-content {
   padding-left: 30px;
 }
-.feature-content2 {
-  padding-left: 30px;
-}
 header,
 .feature-content {
   width: 90%;
   margin: auto;
-}
-header,
-.feature-content2 {
-  width: 90%;
-  margin: auto;
-}
-.feature, .news-thumbs {
-  display: flex;
 }
 .extra-content-blurb {
   display: none;
@@ -75,22 +50,6 @@ header,
 .hide-desktop {
   display: block;
 }
-.button {
-  display: inline-block;
-  padding: 12px 16px;
-  border: 1px solid black;
-  text-decoration: none;
-  color: black;
-  margin-bottom: 20px;
-}
-.feature .feature-content, .feature-content2{
-  width:90%;
-  margin:auto;
-}
-.div .feature-content2 {
-  display: block;
-}
-
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 60px;
@@ -100,16 +59,6 @@ header,
     width: 80%;
     margin: auto;
   }
-  .news-thumbs {
-    flex-direction: row;
-    width: 80%;
-    margin: auto;
-  }
-  .feature, .news-thumbs {
-      flex-direction: row;
-      margin: 0 auto;
-      width: 80%;
-    }
   .extra-content-blurb {
     display: block;
   }
@@ -119,13 +68,6 @@ header,
   header {
     width: 80%;
     margin: auto;
-  }
-  article {
-    display: block;
-    margin-right:30px;
-  }
-  article, .feature{
-    margin-bottom:40px;
   }
 }
 
