@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+/* font-family: 'Courgette';
+font-family: 'Jockey-One'; */
 
 body {
   font-size: 20px;
@@ -15,10 +17,12 @@ img {
   width: 100%;
 }
 h1 {
+  font-family: 'courgette';
   font-size: 32px;
   line-height: 40px;
 }
 h2 {
+  font-family: 'jockey-one';
   font-size: 20px;
   line-height: 26px;
   font-weight: bold;
@@ -55,6 +59,11 @@ header,
     font-size: 60px;
   }
   .feature {
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+  }
+  .news-thumbs {
     flex-direction: row;
     width: 80%;
     margin: auto;
