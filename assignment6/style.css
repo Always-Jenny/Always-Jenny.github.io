@@ -62,7 +62,7 @@ header h2 {
   display: none;
 }
 .feature-content {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 header,
 .feature-content {
@@ -119,7 +119,6 @@ p {
     font-size: 60px;
     line-height: 68px;
   }
-
   h2 {
     font-size: 32px;
     line-height: 40px;
@@ -128,11 +127,18 @@ p {
   header h2 {
     font-weight: bold;
   }
+  .feature-content{
+    margin:0;
+  }
 
-  .feature, .feature-content {
+  .feature, .feature-image{
     flex-direction: row;
-    width: 80%;
+    width:80%;
     margin:0 auto;
+  }
+  .feature-content {
+    padding-left: 30px;
+    margin:0;
   }
   .news-thumbs{
     flex-direction: row;
@@ -142,7 +148,10 @@ p {
   .extra-content-blurb {
     display: block;
   }
-
+  .feature-content {
+    width: 90%;
+    margin: auto;
+  }
   .hide-desktop {
     display: none;
   }
