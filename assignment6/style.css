@@ -6,9 +6,10 @@ font-family: 'Jockey-One'; */
 
 body {
   font-family: 'inter';
-  font-size: 20px;
+  font-size: 19px;
   margin: 0;
   background-color: #d8e2dc;
+  color: #62006e;
 }
 h1,
 h2,
@@ -24,6 +25,7 @@ h1 {
   line-height: 40px;
   margin-top: 15px;
   margin-bottom: 5px;
+  color: #5a0581;
 
 }
 h2 {
@@ -32,6 +34,8 @@ h2 {
   line-height: 26px;
   font-weight: bold;
   margin: 0;
+  color: #f3a8fd;
+  margin-bottom: 10px;
 }
 header h2 {
   font-weight: bold;
@@ -90,9 +94,9 @@ header,
 .button {
   display: inline-block;
   padding: 12px 16px;
-  border: 1px solid black;
+  border: 1px solid #5900ff;
   text-decoration: none;
-  color: black;
+  color: #5900ff;
   margin-bottom: 20px;
 }
 
@@ -108,7 +112,23 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+body {
+  background: linear-gradient(-45deg, #ee7752, #b94b75, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
 
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   body{
@@ -130,20 +150,20 @@ p {
   .feature-content{
     margin:0;
   }
-
   .feature, .feature-image{
     flex-direction: row;
     width:80%;
-    margin:0 auto;
+    margin:4px auto;
   }
   .feature-content {
     padding-left: 30px;
     margin:0;
   }
+
   .news-thumbs{
     flex-direction: row;
     width: 80%;
-    margin: 0 auto;
+    margin: 25px auto;
   }
   .extra-content-blurb {
     display: block;
@@ -155,14 +175,49 @@ p {
   .hide-desktop {
     display: none;
   }
-
   header {
     width: 80%;
     margin: auto;
   }
+  article{
+    margin-right: 20px;
+  }
+  article:last-child{
+    margin-right: 0;
+  }
+   
+  .content-card{
+    margin: 0;
+  }
+  .concent-card, .h2{
+    line-height: normal;
+  }
+  h2{
+    line-height: 100%;
+    margin-top: 10px;
+  }
+  body {
+    background: linear-gradient(-45deg, #ee7752, #b94b75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 2400px) {
+  .feature, .news-thumbs, header{
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
