@@ -26,15 +26,17 @@ h1 {
   font-size: 32px;
   line-height: 40px;
   margin-top: 15px;
+  margin-bottom: 5px;
+
 }
 h2 {
   font-family: 'jockey-one';
-  font-size: 20px;
+  font-size: 19px;
   line-height: 26px;
   font-weight: bold;
 }
 header h2 {
-  font-weight: normal;
+  font-weight: bold;
 }
 .button { 
   font-family: 'courgette'
@@ -51,7 +53,10 @@ header h2 {
   width:90%;
   margin:auto;
 }
-
+.news-thumbs{
+  display: flex;
+  flex-direction: column;
+}
 .no-widows {
   display: none;
 }
@@ -63,6 +68,11 @@ header,
   width: 90%;
   margin: auto;
 }
+.feature-content, .content-card{
+  width:90%;
+  margin: auto;
+}
+
 /* added this */ 
 .content-card{
   width: 90%;
@@ -100,20 +110,41 @@ p {
 
 
 @media only screen and (min-width: 768px) {
+  body{
+    background-color: #d6e2e9;
+  }
+
   h1 {
     font-size: 60px;
+    line-height: 68px;
   }
+
+  h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  header h2 {
+    font-weight: bold;
+  }
+
   .feature {
     flex-direction: row;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+  }
+  .news-thumbs{
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
   }
   .extra-content-blurb {
     display: block;
   }
+
   .hide-desktop {
     display: none;
   }
+
   header {
     width: 80%;
     margin: auto;
