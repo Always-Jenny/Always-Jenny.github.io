@@ -5,8 +5,10 @@
 font-family: 'Jockey-One'; */
 
 body {
+  font-family: 'inter';
   font-size: 20px;
   margin: 0;
+  background-color: #d8e2dc;
 }
 h1,
 h2,
@@ -16,11 +18,17 @@ h3 {
 img {
   width: 100%;
 }
+.feature-iamge2{
+  width:100%;
+}
 h1 {
+  font-family: 'courgette';
   font-size: 32px;
   line-height: 40px;
+  margin-top: 15px;
 }
 h2 {
+  font-family: 'jockey-one';
   font-size: 20px;
   line-height: 26px;
   font-weight: bold;
@@ -28,6 +36,10 @@ h2 {
 header h2 {
   font-weight: normal;
 }
+.button { 
+  font-family: 'courgette'
+}
+
 .feature {
   display: flex;
   flex-direction: column;
@@ -35,6 +47,11 @@ header h2 {
 .feature div {
   flex: 1;
 }
+.feature .content-card{
+  width:90%;
+  margin:auto;
+}
+
 .no-widows {
   display: none;
 }
@@ -46,12 +63,42 @@ header,
   width: 90%;
   margin: auto;
 }
+/* added this */ 
+.content-card{
+  width: 90%;
+  margin: auto;
+}
+
 .extra-content-blurb {
   display: none;
 }
 .hide-desktop {
   display: block;
 }
+
+.button {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* added this */
+.div .feature-content2 {
+  display: block;
+}
+/* added this */
+p {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 60px;
