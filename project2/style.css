@@ -11,7 +11,7 @@ body {
     font-family: 'inter';
     font-size: 19px;
     margin:auto;
-    width:90%;
+    width:100%;
     color: #000000
   }
 
@@ -28,10 +28,11 @@ h2 {
     font-weight: bold;
     font-size: 20px;
 }
-img {
+img, .main-img, main {
   width: 100%;
 }
-.main-img {
+main {
+    display: block;
     width: 100%;
 }
 
@@ -39,16 +40,13 @@ img {
     display:block;
     height:170px;
     width:80px;
-    margin: 10px 0 0 -19px;
+    margin: 10px 0 0 3px;
 } 
 .title-type{
     display: block;
     width: auto;
-    margin: -140px 0 0 70px;
+    margin: -140px 0 0 90px;
     margin-bottom: 60px;
-}
-main {
-    display: block;
 }
 
 body {
