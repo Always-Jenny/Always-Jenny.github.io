@@ -1,5 +1,9 @@
 /* website font 
-font-family: Helvetica, 'Helvetica Neue', arial, serif; */
+font-family: Helvetica, 'Helvetica Neue', arial, serif; 
+Want to use:
+font-family: 'Hanuman';
+font-family: 'Nunito';
+*/
 
 *{box-sizing: border-box;}
 
@@ -18,25 +22,34 @@ h2 {
     margin-top: 15px;
     margin-bottom: 5px;
     color: #5a0581;
-  }
-
+}
+.title-type {
+    font-family: 'nunito';
+    font-weight: bold;
+    font-size: 20px;
+}
 img {
   width: 100%;
 }
 .main-img {
     width: 100%;
-  }
+}
+
 .logo{
     display:block;
     height:170px;
-    width:120px;
+    width:80px;
     margin: 10px 0 0 -19px;
+} 
+.title-type{
+    display: block;
+    width: auto;
+    margin: -140px 0 0 70px;
+    margin-bottom: 60px;
 }
-
 main {
     display: block;
 }
-
 
 body {
     background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
