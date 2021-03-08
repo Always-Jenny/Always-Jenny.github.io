@@ -8,7 +8,7 @@ font-family: 'Nunito';
 *{box-sizing: border-box;}
 
 body {
-    font-family: 'inter';
+    font-family: 'hanuman';
     font-size: 19px;
     margin:auto;
     width:100%;
@@ -16,17 +16,17 @@ body {
   }
 
 h2 {
-    font-family: 'courgette';
+    font-family: 'nunito';
     font-size: 32px;
     line-height: 40px;
     margin-top: 15px;
     margin-bottom: 5px;
-    color: #5a0581;
+    color: #002855;
 }
 .title-type {
     font-family: 'nunito';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 27px;
 }
 img, .main-img, main {
   width: 100%;
@@ -43,10 +43,10 @@ main {
     margin: 10px 0 0 3px;
 } 
 .title-type{
-    display: block;
+    display: flex;
     width: auto;
-    margin: -140px 0 0 90px;
-    margin-bottom: 60px;
+    margin: -90px 0 0 10px;
+    margin-bottom: 14px;
 }
 
 body {
