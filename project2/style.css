@@ -28,35 +28,87 @@ h2 {
     font-weight: bold;
     font-size: 25px;
 }
-img, .main-img, main, .main-stuffs {
+img, .main-img, .main-stuffs {
   width: 100%;
 }
-main {
-    display: block;
-    width: 100%;
-}
 
-.logo{
-    display:block;
-    height:170px;
-    width:80px;
-    margin: 10px 0 0 130px;
-} 
-.title-type{
+
+header h2 {
+    font-weight: bold;
+  }
+  .button { 
+    font-family: 'courgette'
+  }
+  
+  .feature {
     display: flex;
-    width: auto;
-    margin: -90px 0 0 10px;
-    margin-bottom: 14px;
-}
-
-.content {
+    flex-direction: column;
+  }
+  .feature div {
+    flex: 1;
+  }
+  .feature .content-card{
+    width:90%;
+    margin:auto;
+  }
+  .main-stuffs{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-stuffs, article{
+    flex: 1;
+  }
+  .no-widows {
     display: none;
-}
-.hide-desktop {
+  }
+  .feature-content {
+    padding-left: 10px;
+  }
+  header,
+  .feature-content {
+    width: 90%;
+    margin: auto;
+  }
+  .feature-content, .content-card{
+    width:90%;
+    margin: auto;
+  }
+  
+  /* added this */ 
+  .content-card{
+    width: 90%;
+    margin: auto;
+  }
+  
+.p {
+display: none;
+  }
+  .hide-desktop {
     display: block;
-} 
-
-body {
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 16px;
+    border: 1px solid #5900ff;
+    text-decoration: none;
+    color: #5900ff;
+    margin-bottom: 20px;
+  }
+  
+  /* added this */
+  .div .feature-content2 {
+    display: block;
+  }
+  /* added this */
+  p {
+    display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+  body {
     background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -72,38 +124,104 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
-
-@media only screen and (min-width: 768px) {
-
-.content {
-    display: block;
-}
-
-body {
-    background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-      
-@keyframes gradient {
-    0% {
-    background-position: 0% 50%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    body{
+      background-color: #d6e2e9;
     }
-    50% {
-    background-position: 100% 50%;
+  
+    h1 {
+      font-size: 60px;
+      line-height: 68px;
     }
-    100% {
-    background-position: 0% 50%;
+    h2 {
+      font-size: 32px;
+      line-height: 40px;
+      margin: 0;
     }
-} 
-}
-
-@media only screen and (min-width: 2400px) {
+    header h2 {
+      font-weight: bold;
+    }
+    .feature-content{
+      margin:0;
+    }
+    .feature, .feature-image{
+      flex-direction: row;
+      width:80%;
+      margin:4px auto;
+    }
+    .feature-content {
+      padding-left: 30px;
+      margin:0;
+    }
+  
+    .news-thumbs{
+      flex-direction: row;
+      width: 80%;
+      margin: 25px auto;
+    }
+    .extra-content-blurb {
+      display: block;
+    }
+    .feature-content {
+      width: 90%;
+      margin: auto;
+    }
+    .hide-desktop {
+      display: none;
+    }
+    header {
+      width: 80%;
+      margin: auto;
+    }
+    article{
+      margin-right: 20px;
+    }
+    article:last-child{
+      margin-right: 0;
+    }
+     
+    .content-card{
+      margin: 0;
+    }
+    .concent-card, .h2{
+      line-height: normal;
+    }
+    h2{
+      line-height: 100%;
+      margin-top: 10px;
+    }
+    body {
+      background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  }
+  
+  @media only screen and (min-width: 2400px) {
+    .feature, .news-thumbs, header{
+      width: 60%;
+    }
   }
   
   @media only screen and (min-width: 1200px) {
+    .no-widows {
+      display: block;
+    }
   }
   
   @media only screen and (min-width: 1307px) {
   }
+  
