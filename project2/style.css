@@ -26,9 +26,9 @@ h2 {
 .title-type {
     font-family: 'nunito';
     font-weight: bold;
-    font-size: 27px;
+    font-size: 25px;
 }
-img, .main-img, main {
+img, .main-img, main, .main-stuffs {
   width: 100%;
 }
 main {
@@ -40,7 +40,7 @@ main {
     display:block;
     height:170px;
     width:80px;
-    margin: 10px 0 0 3px;
+    margin: 10px 0 0 130px;
 } 
 .title-type{
     display: flex;
@@ -48,6 +48,13 @@ main {
     margin: -90px 0 0 10px;
     margin-bottom: 14px;
 }
+
+.content {
+    display: none;
+}
+.hide-desktop {
+    display: block;
+} 
 
 body {
     background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
@@ -65,4 +72,38 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+@media only screen and (min-width: 768px) {
+
+.content {
+    display: block;
+}
+
+body {
+    background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+      
+@keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+} 
+}
+
+@media only screen and (min-width: 2400px) {
+  }
+  
+  @media only screen and (min-width: 1200px) {
+  }
+  
+  @media only screen and (min-width: 1307px) {
   }
