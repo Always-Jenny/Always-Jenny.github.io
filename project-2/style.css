@@ -91,7 +91,8 @@ body
 #menu
 {
   position: absolute;
-  width: 300px;
+  /*original width: 300px*/
+  width: 380px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -137,17 +138,29 @@ img, .main-picture, .image-links{
     width: 100%;
 }
 
-.button { 
+.button {
     font-family: 'nunito';
     font-weight: bold;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 12px 16px;
+    border: 1px solid #4323fa;
+    text-decoration: none;
+    color: #4323fa;
+    margin-bottom: 20px;
 }
-
 .hide-mobile {
     display: none;
 }
 
 /* bottom of page */
-
+.socials{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    padding: 2px;
+}
  
 /* WEBSITE STUFFS */ 
 @media only screen and (min-width: 768px) {
