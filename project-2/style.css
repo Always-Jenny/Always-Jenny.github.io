@@ -1,3 +1,12 @@
+/* type */
+/* website font 
+font-family: Helvetica, 'Helvetica Neue', arial, serif; 
+Want to use:
+font-family: 'Hanuman';
+font-family: 'Nunito';
+*/
+*{box-sizing: border-box;}
+
 /* button stuffs */
 body
 {
@@ -122,7 +131,25 @@ body {
         background-position: 0% 50%;
     }
 }
+/* end background */
+
+img, .main-picture, .image-links{
+    width: 100%;
+}
+
+.button { 
+    font-family: 'nunito';
+    font-weight: bold;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+/* bottom of page */
+
  
+/* WEBSITE STUFFS */ 
 @media only screen and (min-width: 768px) {
  
 .content {
@@ -141,10 +168,17 @@ body{
 /* end background */
 
 /* images */
-img, .main-picture{
+img, .main-picture, .image-links{
     width: 100%;
 }
+
 /* type */
+/* website font 
+font-family: Helvetica, 'Helvetica Neue', arial, serif; 
+Want to use:
+font-family: 'Hanuman';
+font-family: 'Nunito';
+*/
 .title-type, p{
     color: #232323;
 }
