@@ -135,8 +135,16 @@ body {
     animation: gradient 15s ease infinite;
 }
 }
+body{
+    background-repeat: repeat-x;
+}
 /* end background */
 
-img{
+/* images */
+img, .main-picture{
     width: 100%;
+}
+/* type */
+.title-type, p{
+    color: #232323;
 }
