@@ -18,7 +18,7 @@ body {
 h2 {
     font-family: 'nunito';
     font-size: 22px;
-    line-height: 40px;
+    line-height: 45px;
     margin:auto;
     text-align: center;
     color: #002855;
@@ -75,12 +75,8 @@ img, .main-img, .main-stuffs {
     display: none;
 }
 
-.content-card {
+.hide-mobile {
     display: none;
-}
-
-.hide-desktop {
-    display: block;
 }
   
 .button {
@@ -92,9 +88,14 @@ img, .main-img, .main-stuffs {
     color: #4323fa;
     margin-bottom: 20px;
 }
+.space-left {
+  display: none;
+}
+.space-right {
+  display: none;
+}
 
-
-
+/* moving background */
   body {
     background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
     background-size: 400% 400%;
@@ -224,7 +225,7 @@ img, .main-img, .main-stuffs {
 }
 
 
-
+/*website */
   @media only screen and (min-width: 768px) {
     body{
       background-color: #d6e2e9;
@@ -267,8 +268,8 @@ img, .main-img, .main-stuffs {
       width: 90%;
       margin: auto;
     }
-    .hide-desktop {
-      display: none;
+    .hide-mobile {
+      display: block;
     }
     header {
       width: 80%;
@@ -289,7 +290,7 @@ img, .main-img, .main-stuffs {
     }
     h2{
       line-height: 100%;
-      margin-top: 10px;
+      margin-top: 20px;
     }
     body {
       background: linear-gradient(-45deg, #6096ba, #7ab1e6, #98d5df, #23d5ab);
@@ -310,15 +311,9 @@ img, .main-img, .main-stuffs {
   }
   
   @media only screen and (min-width: 2400px) {
-    .feature, .news-thumbs, header{
-      width: 60%;
-    }
   }
   
   @media only screen and (min-width: 1200px) {
-    .no-widows {
-      display: block;
-    }
   }
   
   @media only screen and (min-width: 1307px) {
