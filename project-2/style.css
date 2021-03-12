@@ -7,6 +7,21 @@ font-family: 'Nunito';
 */
 *{box-sizing: border-box;}
 
+/* type stuffs */
+.title-type{
+  font-family: "nunito";
+  font-weight: bolder;
+  font-size: 26px;
+  text-align: center;
+}
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
 /* button stuffs */
 body
 {
@@ -14,7 +29,7 @@ body
   padding: 0;
   background: #232323;
   color: #000000;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: "hanuman";
 }
 #menuToggle
 {
