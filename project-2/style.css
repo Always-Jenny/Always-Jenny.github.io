@@ -164,9 +164,9 @@ img, .main-picture, .image-links{
  
 /* WEBSITE STUFFS */ 
 @media only screen and (min-width: 768px) {
- 
-.content {
-    display: block;
+
+.hide-mobile {
+  display: block;
 }
  
 body {
@@ -185,13 +185,4 @@ img, .main-picture, .image-links{
     width: 100%;
 }
 
-/* type */
-/* website font 
-font-family: Helvetica, 'Helvetica Neue', arial, serif; 
-Want to use:
-font-family: 'Hanuman';
-font-family: 'Nunito';
-*/
-.title-type, p{
-    color: #232323;
-}
+/* end of webwsite */
