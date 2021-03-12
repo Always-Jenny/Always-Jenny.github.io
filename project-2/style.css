@@ -134,7 +134,7 @@ body {
 }
 /* end background */
 
-img, .main-picture, .image-links{
+img, .main-picture, .image-links, .sub-images{
     width: 100%;
 }
 
@@ -153,7 +153,7 @@ img, .main-picture, .image-links{
     display: none;
 }
 
-/* bottom of page */
+/* bottom of page for all of them */
 .socials{
     display: inline-block;
     width: 80px;
@@ -161,7 +161,14 @@ img, .main-picture, .image-links{
     margin: 5px;
     padding: 2px;
 }
- 
+/*video for reef love  */
+iframe{
+  width:100%;
+}
+
+
+
+
 /* WEBSITE STUFFS */ 
 @media only screen and (min-width: 768px) {
 
