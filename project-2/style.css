@@ -301,6 +301,10 @@ body{
   }
 
   @media only screen and (min-width: 1100px) {
+    .hide-website {
+      display: none;
+    }
+
     .footer-links .footer-link{
       width:30%;
       flex: 0 0 40%;
@@ -308,16 +312,24 @@ body{
       margin: auto;
     }
     .title-small{
+      font-family: "nunito";
       font-size: 30px;
-      margin: 20px;
+      margin-left: 50px;
       text-align: left;
       }
       .title-type{
         font-size: 90px;
       } 
+      h2{
+        font-size: 40px;
+        text-align: center;
+      }
       h3{
         font-size: 40px;
         text-align: left;
+      }
+      h4{
+        font-size: 30px;
       }
       .top-border{
         margin: 30px;
@@ -326,8 +338,24 @@ body{
         text-align: center;
         margin-top: 30px;
       }
+      .small-text{
+        font-family: 'hanuman';
+        font-weight: bold;
+        margin-left:60px
+      }
+      .other-pages{
+        margin-left: 60px;
+        color: gray;
+      }
+      .type{
+        font-family: "nunito";
+        font-size: 30px;
+        margin: 20px;
+        text-align: left;
+        margin-left: 80px;
+        line-height: 120%;
+      }
 
-      
   /*shake image circles*/
   .footer-link2 :hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
